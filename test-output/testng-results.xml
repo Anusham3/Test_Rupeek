@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12689" started-at="2020-04-27T14:29:49Z" finished-at="2020-04-27T14:30:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12689" started-at="2020-04-27T14:29:49Z" finished-at="2020-04-27T14:30:02Z">
+      <class name="com.json_server.tests.GetAuthenticate">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="config" is-config="true" duration-ms="945" started-at="2020-04-27T19:59:49Z" finished-at="2020-04-27T19:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="2508" started-at="2020-04-27T19:59:50Z" finished-at="2020-04-27T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithValidJson()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithValidJson" duration-ms="283" started-at="2020-04-27T19:59:52Z" finished-at="2020-04-27T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithValidJson -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="370" started-at="2020-04-27T19:59:52Z" finished-at="2020-04-27T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithInValidJson1()[pri:1, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithInValidJson1" duration-ms="153" started-at="2020-04-27T19:59:53Z" finished-at="2020-04-27T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithInValidJson1 -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="275" started-at="2020-04-27T19:59:53Z" finished-at="2020-04-27T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithValidJson2()[pri:2, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithValidJson2" duration-ms="325" started-at="2020-04-27T19:59:53Z" finished-at="2020-04-27T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithValidJson2 -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="298" started-at="2020-04-27T19:59:53Z" finished-at="2020-04-27T19:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithInValidJson3()[pri:3, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithInValidJson3" duration-ms="820" started-at="2020-04-27T19:59:54Z" finished-at="2020-04-27T19:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithInValidJson3 -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="296" started-at="2020-04-27T19:59:55Z" finished-at="2020-04-27T19:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithInValidJson4()[pri:4, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithInValidJson4" duration-ms="482" started-at="2020-04-27T19:59:55Z" finished-at="2020-04-27T19:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithInValidJson4 -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="authenticate" is-config="true" duration-ms="276" started-at="2020-04-27T19:59:55Z" finished-at="2020-04-27T19:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAuthenticateWithInValidJson5()[pri:5, instance:com.json_server.tests.GetAuthenticate@28feb3fa]" name="getAuthenticateWithInValidJson5" duration-ms="275" started-at="2020-04-27T19:59:56Z" finished-at="2020-04-27T19:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthenticateWithInValidJson5 -->
+      </class> <!-- com.json_server.tests.GetAuthenticate -->
+      <class name="com.json_server.tests.GetUser">
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="authenticate" is-config="true" duration-ms="285" started-at="2020-04-27T19:59:56Z" finished-at="2020-04-27T19:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getAllUser()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="getAllUser" duration-ms="1836" started-at="2020-04-27T19:59:56Z" finished-at="2020-04-27T19:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="authenticate" is-config="true" duration-ms="293" started-at="2020-04-27T19:59:58Z" finished-at="2020-04-27T19:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getSingleUserWithValidPhoneNum()[pri:1, instance:com.json_server.tests.GetUser@675d3402]" name="getSingleUserWithValidPhoneNum" duration-ms="672" started-at="2020-04-27T19:59:58Z" finished-at="2020-04-27T19:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserWithValidPhoneNum -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="authenticate" is-config="true" duration-ms="1131" started-at="2020-04-27T19:59:59Z" finished-at="2020-04-27T20:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getSingleUserWithInValidPhonenum()[pri:2, instance:com.json_server.tests.GetUser@675d3402]" name="getSingleUserWithInValidPhonenum" duration-ms="482" started-at="2020-04-27T20:00:00Z" finished-at="2020-04-27T20:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserWithInValidPhonenum -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="authenticate" is-config="true" duration-ms="347" started-at="2020-04-27T20:00:01Z" finished-at="2020-04-27T20:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getSingleUserWithInValidPhonenum1()[pri:3, instance:com.json_server.tests.GetUser@675d3402]" name="getSingleUserWithInValidPhonenum1" duration-ms="253" started-at="2020-04-27T20:00:01Z" finished-at="2020-04-27T20:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserWithInValidPhonenum1 -->
+        <test-method status="PASS" signature="authenticate()[pri:0, instance:com.json_server.tests.GetUser@675d3402]" name="authenticate" is-config="true" duration-ms="263" started-at="2020-04-27T20:00:01Z" finished-at="2020-04-27T20:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method status="PASS" signature="getSingleUserWithInValidPhonenum2()[pri:4, instance:com.json_server.tests.GetUser@675d3402]" name="getSingleUserWithInValidPhonenum2" duration-ms="663" started-at="2020-04-27T20:00:02Z" finished-at="2020-04-27T20:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserWithInValidPhonenum2 -->
+      </class> <!-- com.json_server.tests.GetUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
